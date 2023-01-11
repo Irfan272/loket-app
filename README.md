@@ -1,7 +1,8 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# loket-app
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
@@ -25,9 +26,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
 
@@ -64,3 +63,62 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+### Installation steps:
+1. Clone project from https://github.com/waldika13/brh-app.git
+```shell
+git clone https://github.com/waldika13/brh-app.git
+```
+2. Change directory
+```shell
+cd brh-app
+```
+3. Install Composer Dependencies
+```shell
+composer install
+```
+4. Install NPM Dependencies
+```shell
+npm install && npm run dev
+```
+5. Create a copy of your .env file
+```shell
+cp .env.example .env
+```
+6. Generate an app encryption key
+```shell
+php artisan key:generate
+```
+7. Change Database to ('loket-app') and Filesystem_Driver to ('public') in .env
+```Example
+DB_DATABASE=loket-app
+FILESYSTEM_DRIVER=public
+```
+8. Run Laravel project
+```shell
+php artisan serve
+```
+**Default Admin for loket-App**
+
+username: admin@gmail.com
+
+password: 12345678
+
+## Git Command
+
+- clone untuk pertama kali -> 
+git clone https://github.com/waldika13/brh-app.git
+
+- Membuat branch -> 
+git branch nama_branch
+
+- berpindah dari branch ke branch lain (kalau ada perubahan lokal pada branch sebaiknya di push dulu baru berpindah ke branch lain) -> 
+git checkout nama_branch
+
+- Melakukan push atau upload
+1. git add .
+2. git commit -m "deskripsi"
+3. git push origin nama_branch
+
+- memperbarui file lokal agar s
