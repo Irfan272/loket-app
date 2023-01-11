@@ -108,7 +108,7 @@ password: 12345678
 ## Git Command
 
 - clone untuk pertama kali -> 
-git clone https://github.com/waldika13/brh-app.git
+git clone https://github.com/Irfan272/loket-app.git
 
 - Membuat branch -> 
 git branch nama_branch
@@ -120,5 +120,3 @@ git checkout nama_branch
 1. git add .
 2. git commit -m "deskripsi"
 3. git push origin nama_branch
-
-- memperbarui file lokal agar s
