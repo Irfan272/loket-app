@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: COCOGOOSE, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("{{asset('assets/img/BG_LOGIN.jpg')}}");
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-loket {
+    border: 1px solid #6F1AB6;
+    border-radius: 10px;
+}
+
+.logo-img {
+    margin: 10px;
+    text-align: center;
+}
+
+.card-header {
+    text-align: center;
+    border: none;
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.card-radius {
+    border-radius: 30px;
+    background-color: #6F1AB6;
+    align-content: center;
+}
+
+label {
+    color: white;
+}
+
+.form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-input {
+    text-align: center;
+
+}
+
+.btn {
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+/* .img-tree {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+} */
+
+.navbar {
+    background-color: white;
+}
+
+
+
+
+.navbar-collapse {
+    display: block;
+    background-color: rgb(240, 169, 15);
+    padding: 20px 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: -15px;
+    margin-right: -15px;
+    margin-left: -200px;
+    border-radius: 20px;
+}
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: black solid 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}

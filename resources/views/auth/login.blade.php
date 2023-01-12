@@ -10,13 +10,19 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
 </head>
 
-<body style="background-image: url('{{asset('assets/img/BG_LOGIN.jpg')}}')">
-    <div class="container mt-5">
+<body>
+   
+    <div class="container mt-5" >
         <div class="row justify-content-center">
             <div class="col-md-6">
+               
+                <div class="bg">
+                    <img src="{{asset('assets/img/BG_LOGIN.jpg')}}" class="rounded float-end position-absolute bottom-0 end-0" alt="tree"
+                        style="width: 100%; height: 700px;position:absolute">
+                </div>
                 <div class="logo-loket">
                     <div class="logo-img">
-                        <img src="{{asset('assets/img/LOGO_LOKET_KITA.png')}}" class="rounded px-4 w-50" alt="logo" >
+                        <img src="{{asset('assets/img/LOGO_LOKET_KITA.png')}}" class="rounded position-relative px-4 w-50" alt="logo" >
                     </div>
                 </div>
                 <div class="card card-radius mt-lg-5 position-relative py-2 px-4 w-75 p-3 m-5">
@@ -43,8 +49,8 @@
                              </div>
                     </form>
                     </div>
-
                 </div>
+                
                 <div class="img-tree">
                     <img src="{{asset('assets/img/tree.png')}}" class="rounded float-end position-absolute bottom-0 end-0" alt="tree"
                         style="width: 480px; height: 450px;">
